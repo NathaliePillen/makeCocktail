@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Make me a cocktail</title>
+    <meta name="description" content="Make me a cocktail gives you the ingredients
+    and the instructions to make the cocktail that you are looking for.">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <h1>How to make your favorite cocktail</h1>
+        <p>Search for the ingredients and instructions to make the perfect cocktail.</p>
+    </header>
+
+
+    <div class="container">
+
+        <section class="containerSearch">
+            <div>
+                <label for="cocktail">What is your favorite cocktail?</label>
+                <input type="text" id="cocktail" name="cocktail">
+            </div>
+
+            <div class="action">
+                <button type="button" id="search">Search</button>
+            </div>
+        </section>
+
+        <section class="containerCocktail">
+
+            <div class="cocktailName">
+                <h2>Name</h2>
+                <p>Cosmopolitan</p>
+            </div>
+
+            <img class="cocktailImage" src="/images/cosmopolitan.jpg" alt="cosmopolitan cocktail">
+
+            <div class="cocktailIngredients">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>1/4 oz Absolute Vodka</li>
+                    <li>1/4 oz Lime juice</li>
+                    <li>1/4 oz Cointreau</li>
+                    <li>1/4 cup Cranberry juice</li>
+                    <li>...</li>
+                </ul>
+            </div>
+
+            <div class="cocktailMeasure"></div>
+
+            <div class="cocktailInstructions">
+                <h2>Instructions</h2>
+                <p>Add all ingredients into cocktail shaker filled with ice. Shake well and double strain into a large cocktail glass. Garnish with lime wheel.</p>
+            </div>
+
+            <div class="cocktailGlass">
+                <h2>Glass</h2>
+                <p>Serve: Cocktail glass</p>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
