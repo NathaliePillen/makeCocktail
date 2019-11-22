@@ -1,0 +1,71 @@
+    body {
+        width: 100%;
+        margin-right: 750px;
+        text-align: center;
+    }
+    
+    header {
+        background-image: linear-gradient(#FFAD87, #B0574E);
+        padding: 20px;
+    }
+    
+    h1,
+    h2 {
+        font-family: 'Notable', sans-serif;
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+    
+    h2 {
+        color: #B0574E;
+    }
+    
+    .container {
+        background-color: #bebebe;
+        padding: 20px;
+    }
+    
+    p,
+    li {
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+    .containerSearch {
+        padding-top: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .containerCocktail {
+        text-align: left;
+    }
+    
+    .cocktailImage {}
+    
+    ul {
+        padding: 30px;
+        border: 4px dotted #B0574E;
+    }
+    
+    li {
+        list-style-type: square;
+        text-shadow: 2px 2 px lightgray;
+    }
+    
+    button {
+        align-self: right;
+        color: #B0574E;
+        margin: 20px;
+        padding: 20px;
+        font-family: 'Notable', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+    
+    #cocktailInput[type=text] {
+        padding: 20px;
+        box-sizing: border-box;
+    }

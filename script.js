@@ -18,29 +18,33 @@ cocktailSearch.addEventListener(("click"), function() {
             for (i = 0; i < list.length; i++) {
 
                 let cocktailName = list[i].strDrink;
-                console.log(cocktailName);
+                //console.log(cocktailName);
                 let cocktailImage = list[i].strDrinkThumb;
-                console.log(cocktailImage);
+                //console.log(cocktailImage);
                 let cocktailCategory = list[i].strAlcoholic + "<br>" + list[i].strCategory;
-                console.log(cocktailCategory);
-                /*let cocktailIngredients = list[i].strMeasure + " " + list[i].strIngredients;
-                console.log(cocktailIngredients);*/
+                //console.log(cocktailCategory);
+
+                //str.Measure1 + str.Ingredients1 next lin str.Measure2 + str.Ingredients2 ...
+                let cocktailIngredients = list[i].strMeasure + " " + list[i].strIngredients;
+                console.log(cocktailIngredients);
+
+
                 let cocktailInstructions = list[i].strInstructions;
-                console.log(cocktailInstructions);
+                //console.log(cocktailInstructions);
                 let cocktailGlass = list[i].strGlass;
-                console.log(cocktailGlass);
+                //console.log(cocktailGlass);
 
 
                 let nameElement = document.querySelector(".cocktailName p");
-                console.log(nameElement);
+                //console.log(nameElement);
                 nameElement.innerHTML = cocktailName;
 
                 let imageElement = document.querySelector(".cocktailImage");
-                console.log(imageElement);
+                //console.log(imageElement);
                 imageElement.src = cocktailImage;
 
                 let categoryElement = document.querySelector(".cocktailCategory p");
-                console.log(categoryElement);
+                //console.log(categoryElement);
                 categoryElement.innerHTML = cocktailCategory;
 
                 let instructionsElement = document.querySelector(".cocktailInstructions p");
