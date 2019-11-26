@@ -25,6 +25,10 @@
         padding: 20px;
     }
     
+    p {
+        display: inline;
+    }
+    
     p,
     li {
         font-size: 18px;
@@ -41,8 +45,6 @@
     .containerCocktail {
         text-align: left;
     }
-    
-    .cocktailImage {}
     
     ul {
         padding: 30px;
